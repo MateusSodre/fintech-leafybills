@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leafy Bills Login</title>
+
+  <!-- link do icon do navegador (creditos do icon= https://www.flaticon.com/br/icones-gratis/folhas)-->
+  <link rel="icon" href="../Imagens/folha.png" />
+  <link rel="shortcut icon" href="../Imagens/folha.png" />
+
+  <!-- chamada do CSS do BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- link para a minha CSS -->
+  <link rel="stylesheet" href="/CSS/style.css">
+
+  <!-- link da fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <style>
+    .bg-primary {
+      background-color: #A7D129 !important;
+    }
+
+    .bg-secondary {
+      background-color: #000000 !important;
+    }
+
+    .text-primary {
+      color: var(#000000) !important;
+    }
+
+    .text-secondary {
+      color: var(#ffffff) !important;
+    }
+
+    .mt-0 {
+      margin-top: 3% !important;
+    }
+
+    .mt-1{
+      margin:  5rem 5rem 5rem 5rem !important;
+    }
+
+    .ms-1 {
+      margin-left: 5rem !important;
+    }
+
+    .ms-2 {
+      margin-right: 5rem !important;
+    }
+
+    .btn-primary {
+      color: #ffffff !important;
+    }
+
+    .p-1{
+      padding: 3rem 3rem 3rem 3rem !important;
+    }
+  </style>
+
+</head>
+
+<body class="bg-primary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex mb-3 bg-primary fs-2">
+    <div class="container-fluid ms-1">
+      <a class="navbar-brand border-0" href="../index.html">
+        <img src="../Imagens/logo.svg" alt="logo leafy bills">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse align-baseline" id="navbarNavAltMarkup">
+        <div class="navbar-nav align-baseline">
+          <a class="nav-link active" aria-current="page" href="#">Serviços</a>
+          <a class="nav-link" href="/Pages/about.html">Sobre</a>
+          <a class="nav-link" href="/Pages/financias.html">Finanças</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid bg-secondary rounded d-flex justify-content-center d-flex align-items-center"
+    style="width: 500px;">
+    <div
+    class="container-fluid bg-white row d-flex justify-content-center d-flex align-items-center container text-center fs-2 p-1 mt-1">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text fs-6">Nunca compartilhe seus dados.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label fs-6" for="exampleCheck1">Lembrar de mim</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+  </div>
+  </div>
+  <secondnav class="navbar bg-primary d-flex justify-content-start d-flex align-items-end d-flex flex-wrap ms-1 mt-0">
+    <div class="container-fluid d-flex justify-content-start d-flex align-items-end">
+      <a class="navbar-brand" href="https://www.instagram.com" target="_blank">Instagram <img src="../Imagens/insta logo.svg"
+          alt="appstore logo"></a>
+      <a class="navbar-brand" href="https://play.google.com/store/games?hl=pt_BR&gl=US" target="_blank">playstore <img
+          src="../Imagens/playstore logo.svg" alt="appstore logo" target="_blank"></a>
+      <a class="navbar-brand" href="https://www.apple.com/br/app-store/" target="_blank">appstore <img src="../Imagens/apple logo.svg"
+          alt="appstore logo"></a>
+    </div>
+  </secondnav>
+
+  <!-- chamada do JS do BS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
